@@ -1,0 +1,154 @@
+html{
+    display:flex(1);
+    background: url(bgi.png) no-repeat center center fixed;
+    padding-left: 135px;
+    padding-right: 135px;
+  
+}
+
+.masthead{
+    display: flex;
+    font-size: 1.2em;
+    font-style: unset;
+    color: rgb(250, 248, 250);
+    justify-content: center;
+    align-items:center;
+    margin-top: none;
+    padding: 2em 2em;
+    background-color:  #0D1B2E;
+    height: 1.5em;
+}
+
+.intro  {
+    padding: 2em 2em;
+    font-size: large;
+    color: #f8f2f2;
+    background: #12afee;
+}
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+#origin-text p{
+    display: flexbox;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding: 1em 1em;
+    margin-top: none;
+    border-radius: 0.1em;
+    background-color: rgb(221, 174, 112);
+    border-color: rgb(236, 226, 204);
+    font-size: 1.2em;    
+}
+
+.test-area{
+    display: flexbox;
+    padding-left: 10em;
+    padding-right: 10em;
+    justify-content: center;
+    align-items: center;
+   }
+
+#test-area{
+    font-size: 1em;
+}
+
+.test-wrapper{
+    box-sizing: content-box;
+    align-items: center;
+    height:auto;
+    display: flex;
+    border: 10px solid rgb(85, 187, 102);
+    border-radius: 10px;
+}
+
+.test-wrapper textarea{
+    flex: 1;
+}
+
+.meta{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+#reset{
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5em 1em;
+    color: #ad540c;
+    background-color: rgb(253, 247, 247);
+    border: 10px solid #ad540c;
+}
+
+
+
+#reset:hover {
+    color: white;
+    background-color: #ad540c;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+ 
+    /* For desktop: */
+    
+    @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+@media all and (max-width: 20px){
+    html{
+        color: none;
+    }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
